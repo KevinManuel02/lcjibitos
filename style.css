@@ -1,0 +1,596 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('./Assets/img/Fondo_TARJETA\ DE\ PRESENTACION\ MARIO\ hijo\ \(1\).png' );
+    background-size: cover;
+    background-position: center;
+}
+
+header img:first-child {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.logo{
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -20%);
+}
+
+.Borde_TARJETA{
+    width:1999px;
+    height: 1139px;
+
+}
+
+.container-img .img1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -40%);
+    width: 1999px;
+    height: 750px;
+}
+
+.container-img1 .img1_exc{
+    top: 20%;
+    left: 60%;
+    transform: translate(-0.100%, -40%);
+}
+
+.container-img1_1 .img1_lotes{
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -65%);
+    width: 1004px;
+    height: 591px;
+}
+
+
+@media(min-width: 412px) and (max-width: 915px){
+    .header-container{
+        width: 450px;
+        height: 290px;
+    }
+    
+    .Borde_TARJETA{
+       
+        width: 300px;
+        height: 295px;
+        ;
+    }
+     header img:first-child{
+      
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: translate(-100%, -150%);
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    
+     .container-img .img1{
+        top: 50%;
+        left: 50%;
+        transform: translate(-70%, -40%);
+        width:  400px;
+        height: 250px;
+    }
+    
+     .container-img1 .img1_exc{
+        top: 22%;
+        left: 52%;
+        transform: translate(-5%, -60%);
+    }
+    
+    .container-img1_1 .img1_lotes{
+        top: 50%;
+        left: 50%;
+        transform: translate(-38%, -65%);
+        width: 400px;
+        height: 250px;
+    }
+}
+
+/* end HEADER*/
+
+/*Section 2*/
+.header-container-section2{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('./Assets/img/fondo2_TARJETA\ DE\ PRESENTACION\ MARIO\ hijo.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; /* Asegura que la imagen no se salga de la sección */
+}
+
+.pg2persona_TARJETA{
+
+    width: 1809px;
+    height: 912px;
+}
+
+.pg2img{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-102%, -22%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 1004px;
+    height: 591px;
+}
+
+.pg2img1{
+    position: absolute;
+    top: 30%; /* Ajusta para posicionar verticalmente */
+    left: 70%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 309px;
+    height: 200px;
+}
+
+.pg2img2{
+    position: absolute;
+    top: 70%; /* Ajusta para posicionar verticalmente */
+    left: 70%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 804px;
+    height: 491px;
+}
+
+@media(max-width: 1300px){
+
+    .pg2persona_TARJETA{
+        width: 600px;
+        height: 912px;
+    }
+
+    .pg2img{
+        position: absolute;
+        top: 40%; /* Ajusta para posicionar verticalmente */
+        left: 50%; /* Ajusta para posicionar horizontalmente */
+        transform: translate(-40%, 40%); /* Centra la imagen */
+        z-index: 1; /* Coloca la imagen sobre el video */
+        width: 604px;
+        height: 391px;
+    }
+}
+
+/**/
+
+/*section 3*/
+
+.header-container-section3{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('./Assets/img/Fondo3_TARJETA\ DE\ PRESENTACION\ MARIO\ hijo.png');
+    background-size: cover;
+    background-position: center;
+}
+.pg3persona_TARJETA{
+    width: 1900px;
+    height: 910px;
+}
+
+.wsp{
+
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 20%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-80%, -60%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 403px;
+    height: 233px;
+}
+
+.pg3persona{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-32%, -42%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 1404px;
+    height: 800px;
+}
+
+
+
+/**/
+
+
+/*section4*/
+.header-container-section4{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('./Assets/img/Fondo4_TARJETA\ DE\ PRESENTACION\ MARIO\ hijo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pg4persona_TARJETA{
+    width: 1903px;
+    height: 932px;
+}
+
+.pg4{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-32%, -52%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 1404px;
+    height: 693px;
+}
+
+.pg4l{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-55%, -80%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 1404px;
+    height: 693px;
+}
+
+.pg4p{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 20%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-50%, -40%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 309px;
+    height: 200px;
+}
+/**/
+
+/*Section 5*/
+
+
+.header-container-section5 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden; /* Asegura que la imagen no se salga de la sección */
+}
+
+.video1 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.pg5persona_TARJETA {
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 1899px;
+    height: 1120px;
+}
+
+.pg5l{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-10%, -59%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+
+}
+
+/**/
+
+/*section6*/
+.header-container-section6{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('./Assets/img/Fondo6_TARJETA\ DE\ PRESENTACION\ MARIO\ hijo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.pg6persona_TARJETA{
+    width: 1904px;
+    height: 912px;
+}
+
+.pg6{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-15%, -42%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+}
+.pg6l{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 50%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-80%, -85%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+}
+.wsp2{
+    position: absolute;
+    top: 70%; /* Ajusta para posicionar verticalmente */
+    left: 20%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-80%, -80%); /* Centra la imagen */
+    z-index: 1; /* Coloca la imagen sobre el video */
+    width: 403px;
+    height: 233px;
+
+}
+/**/
+
+/*MAPAS*/
+
+.header-container-section7 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.pg7persona_TARJETA {
+    display: block;
+    width: 1900px;
+    height: 912px;
+}
+.pg7{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 30%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-66%, -50%); /* Centra la imagen */
+    z-index: 2; /* Coloca la imagen sobre el video */
+    width: 804px;
+    height: 391px;
+}
+
+.pg7p{
+    position: absolute;
+    top: 50%; /* Ajusta para posicionar verticalmente */
+    left: 70%; /* Ajusta para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centra la imagen */
+    z-index: 2; /* Coloca la imagen sobre el video */
+    width: 804px;
+    height: 391px;
+}
+
+
+#map {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-52%, -45%);
+    z-index: 1; /* Para asegurarse de que esté sobre la imagen */
+}
+
+#map iframe {
+    width: 450px;
+    height: 360px;
+    border: 0;
+}
+
+#map2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-52%, -45%);
+    z-index: 1; /* Para asegurarse de que esté sobre la imagen */
+}
+
+#map2 iframe {
+    width: 450px;
+    height: 360px;
+    border: 0;
+}
+
+
+/* section 8 */
+
+
+.header-container-section8 {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.pg8persona {
+    width: 1900px;
+    height: 920px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.pg8 {
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    transform: translate(-32%, -70%);
+    z-index: 2; /* Coloca la imagen sobre el video */
+    width: 804px;
+    height: 391px;
+}
+/* FORMULARIO*/
+.contact_section {
+    width: 100%;
+    max-width: 800px; /* Ajusta el ancho máximo del formulario */
+    transform: translate(-20%, -0.70% );
+    transform: translateZ(-90%);
+    padding: 20px;
+    z-index: 1; /* Asegúrate de que el formulario esté encima de las imágenes */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente para mejor legibilidad */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.contact_taital {
+    font-size: 40px;
+    color: #f5c729;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact_taital_1 {
+    color: #292929;
+    border-bottom: 5px solid #363636;
+}
+
+.contact_section_2 {
+    padding-top: 55px;
+}
+
+.mail_section_1 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mail_text {
+    width: 100%;
+    font-size: 16px;
+    color: #414140;
+    background-color: #ffffff;
+    border: 1px solid #aaaaa9;
+    padding: 11px 20px;
+    margin-top: 20px;
+}
+
+input.mail_text::placeholder {
+    color: #414140;
+}
+
+.massage-bt {
+    color: #414140;
+    width: 100%;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 1px solid #aaaaa9;
+    padding: 20px;
+    margin-top: 20px;
+    height: auto;
+}
+
+textarea#comment.massage-bt::placeholder {
+    color: #414140;
+}
+
+.send_bt {
+    width: 170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.send_bt a {
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: #fefefd;
+    background-color: #fa7e23;
+    padding: 14px;
+    margin-top: 40px;
+    display: block;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.send_bt a:hover {
+    color: #fefefd;
+    background-color: #252f2d;
+}
+
+
+.section-8{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 1; /* Asegúrate de que el formulario esté encima de las imágenes */
+
+}
+
+.section-8 ul {
+  
+    list-style-type: none;
+
+}
+
+.section-8  ul li{
+    padding: 10px;
+    color: var(--ligth-color);
+}
+
+.section-8 ul li a {
+    color: var(--ligth-color);
+    text-decoration: none;
+    font-size: 50px;
+    font-family: var(--menu-font);
+    
+}
+
+.send_bt{
+    border-radius: 10px;
+    padding: 10px ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 0;
+    font-family: var(--section-title-font);
+
+}
+
+.footer-boton{
+    color: rgb(241, 241, 241);
+     padding: 7px 30px;
+     border: 2px solid var rgb(0, 0, 0);
+     text-decoration: none;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     background-color: rgb(0, 0, 0);
+     border-radius: 10px;
+     cursor:pointer;
+}
+
+.footer-boton:hover{
+    color: rgb(0, 0, 0);
+     padding: 7px 30px;
+     border: 2px solid var rgb(0, 0, 0);
+     text-decoration: none;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     cursor:pointer;
+}
+/**/
+
+
+/**/
